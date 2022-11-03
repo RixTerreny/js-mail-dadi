@@ -21,6 +21,7 @@ btn.addEventListener("click", function(){
 
     if (ok == true){
         verified.innerHTML="Accesso eseguito";
+        window.open("game.html");
     }
     ok=false;
 })
